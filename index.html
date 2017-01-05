@@ -1,0 +1,1066 @@
+<!--
+	This Basic theme serves as an example for how to create other
+	themes by demonstrating the features with minimal HTML and CSS.
+	Comments like this will be through the code to explain briefly
+	what each feature is and point you to the MkDocs documentation
+	to find out more.
+-->
+<!DOCTYPE html>
+<head>
+
+	<meta charset="UTF-8" />
+
+	<!--
+		The page_title contains the title for a page as shown in the navigation.
+		Site name contains the name as defined in the mkdocs.yml
+	-->
+	<title>کاوه نگار</title>
+
+	<!--
+		Support custom favicon support.
+		http://www.mkdocs.org/user-guide/configuration/#site_favicon
+	-->
+	
+		<link rel="shortcut icon" href="./img/favicon.ico">
+	
+
+	<!--
+		You can include external assets of course, but be aware that it means the
+		documentation may not work well offline.
+	-->
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+	<link rel="stylesheet" href="./css/theme.css">
+
+	<!--
+		extra_ess contains paths to CSS files in the users
+		documentation directory or a list of CSS files defined in
+		their mkdocs.yml.
+
+		http://www.mkdocs.org/user-guide/configuration/#extra_css
+	-->
+	
+
+	<link rel="stylesheet" href="./css/darkula.css">
+	<script src="./js/highlight.pack.js"></script>
+
+	<!--
+		Include Google Analytics tracking code.
+
+		http://www.mkdocs.org/user-guide/configuration/#google_analytics
+	-->
+	
+
+	
+	
+</head>
+
+<body>
+
+	<div class="sidebar left">
+
+		<ul>
+
+			
+
+				
+
+	<li class="active">
+	
+		<a href=".">Home</a>
+		
+	</li>
+
+
+
+			
+
+		</ul>
+
+	</div>
+
+	<div class="body rel right">
+
+		<header>
+
+			<div class="right">
+
+				<h1>کاوه نگار</h1>
+
+			</div>
+
+			<div role="search" class="left">
+
+				<form action="./search.html" class="rel" method="get">
+
+					<input type="text" name="q" placeholder="جستجو" />
+
+					<input type="submit" class="abs search-submit" value="" />
+
+				</form>
+
+			</div>
+
+		</header>
+
+		<main class="rel oh">
+
+			
+
+				<div class="left toc rel ">
+
+					<ul>
+
+						
+
+							<li class="title">
+
+								<a href="#_1">راهنما</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_2">کد ارسال و دریافت پیامک</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#c"> #C </a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_3">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_4">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#php">PHP</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_5">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_6">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#java">Java</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#gradle">gradle</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#maven">maven</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#sbt">sbt</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#leiningen">leiningen</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_7">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#delphi">Delphi</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_8">نصب</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#curl">Curl</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_9">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#node">Node</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_10">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_11">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#python">Python</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_12">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_13">نموننه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#go">go</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_14">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#ruby">Ruby</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_15">نصب</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#elixir">Elixir</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_16">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#usage">Usage</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#laravel">Laravel</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_17">نیاز ها</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_18">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#laravel-5">Laravel 5</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#laravel-4">Laravel 4</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_19">نمونه</a>
+
+								</li>
+
+							
+
+						
+
+							<li class="title">
+
+								<a href="#yii2">yii2</a>
+
+							</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#_20">نصب</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#configuration">Configuration</a>
+
+								</li>
+
+							
+
+								<li class="sub-title">
+
+									<a href="#usage_1">Usage</a>
+
+								</li>
+
+							
+
+						
+
+					</ul>
+
+				</div>
+
+			
+
+			<div class="right content">
+
+				
+
+					<h1 id="_1">راهنما</h1>
+<h2 id="_2">کد ارسال و دریافت پیامک</h2>
+<p>کیت توسعه نرم‌افزار یا SDK ، مجموعه ای از توابع و کتابخانه‌های کامپایل شده‌ای است که برای آسان کردن برنامه‌نویسی در اختیار توسعه دهندگان قرار می‌ گیرد. </p>
+<p>شرکت کاوه نگار بعد از انتشار وب سرویس اس ام اس REST و SOAP اقدام به تولید SDK برای زبان های برنامه نویسی محبوب نمود تا گسترش دهندگان نرم افزار بتوانند به راحتی با افزودن یک کتابخانه به پروژه خود از سرویس کاوه نگار در هر پروژه ها استفاده نمایند. </p>
+<p>نکته:  کد ارسال پیامک کاوه نگار بر مبنای وب سرویس پیامک REST می باشد، بنابراین در صورت تمایل به دریافت جزئیات بیشتر می توانید به مستندات وب سرویس <a href="http://kavenegar.com/rest.html">Rest</a>  مراجعه نمائید.
+توابع موجود در SDK شامل ارسال پیامک سریع ، ارسال پیامک گروهی ، دریافت وضعیت پیامک های ارسال ،ارسال کد اعتبارسنجی پیامک و تماس تلفنی، واکشی پیامک های دریافتی و گزارشات مربوط به میزان ارسال و دریافت پیامک می باشد .
+نکته : در صورتی که در اجرای هر کدام از متدها مشکلی وجود داشته باشد </p>
+<p>Exception ارسال می شود ، که شما می توانید با استفاده از آن خطا موجود را شناسایی کنید. </p>
+<p>ApiException : به این معنی است که ارتباط با وب سرویس امکان پذیر بوده و خطایی از آن دریافت کرده است (<a href="http://kavenegar.com/rest.html#result-general"> لیست خطاها به همراه توضیحات </a>) </p>
+<p>HttpException : به این معنی است که مشکلی در برقراری ارتباط با سرویس کاوه نگار وجود دارد</p>
+<p>برای ارائه مشکلات و یا پیشنهادات خود در رابطه با SDK می توانید از طریق ایمیل <a href="./support@kavenegar.com">support@kavenegar.com</a> آن را به ما منتقل کنید و یا از طریق یک Push Request در کانال گیت هاب ما را مطلع نمائید .</p>
+<p>در صورتی که در گیت هاب حساب کاربری دارید خوشحال میشویم <a href="https://github.com/kavenegar">کاوه  نگار </a> را دنبال نمائید. </p>
+<hr>
+
+<h1 id="c"><p> #C </c#></h1>
+<p>برای استفاده از SDK کاوه نگار در زبان های دات نت کافی است فایل DLL دانلود شده را به بخش Refrence های پروژه اضافه نمایید.</p>
+<h2 id="_3">نصب</h2>
+<p>برای نصب کافیست مراحل زیر را طی کنید 
+<h4>روش اول :  </h4></p>
+<ul>
+<li>
+<p>nuget  را از <a href="https://www.nuget.org/">اینجا</a>دانلود و نصب نمایید</p>
+</li>
+<li>
+<p>ازمنوی Tools قسمت  Library Package Manager  گزینه Package Manager Console را انتخاب نمایید</p>
+</li>
+<li>
+<p>از Package Manager Console باز شده دستور <code>Install-Package Kavenegar</code> را تایپ نمایید و سپس اینتر را بزنید</p>
+</li>
+<li>
+<p>اکنون پکیج Kavenegar.dll به References های پروزه اضافه شده که از بخش Solution explorer پوشه References قابل مشاهده میباشد</p>
+</li>
+</ul>
+<h4>روش دوم :  </h4>
+
+<ul>
+<li>بصورت دستی *   از <a href="https://github.com/KaveNegar/kavenegar-csharp/blob/master/Kavenegar/bin/Debug/Kavenegar.dll">اینجا </a> SDK را دانلود نمایید</li>
+</ul>
+<h4>روش استفاده  :  </h4>
+
+<ul>
+<li>از قسمت Solution explorer روی References راست کلیک کرده سپس از منوی ضاهر شده روی Add Reference کلیک کرده سپس Kavenegar.dll انتخاب نمایید</li>
+</ul>
+<hr />
+<p><a href="https://github.com/KaveNegar/kavenegar-csharp/archive/master.zip"> SDK دانلود </a></p>
+<p><a href="https://github.com/KaveNegar/kavenegar-examples-csharp/archive/master.zip"> دانلود نمونه کد </a></p>
+<hr />
+<h2 id="_4">نمونه</h2>
+<p><h4> ارسال پیامک در سی شارپ : 
+</h4></p>
+<pre><code class="csharp">
+try
+{
+var sender = &quot;10006703323323&quot;;
+var receptor = &quot;{Your Phone Number}&quot;;
+var message = &quot;وب سرویس تخصصی کاوه نگار &quot;;
+var api = new Kavenegar.KavenegarApi(&quot;{Your API Key}&quot;);
+api.Send(sender, receptor, message);
+catch (Kavenegar.Exceptions.ApiException ex) 
+{
+    // در صورتی که خروجی وب سرویس 200 نباشد این خطارخ می دهد.
+    Console.Write(&quot;Message : &quot; + ex.Message);
+}
+catch (Kavenegar.Exceptions.HttpException ex) 
+{
+    // در زمانی که مشکلی در برقرای ارتباط با وب سرویس وجود داشته باشد این خطا رخ می دهد
+    Console.Write(&quot;Message : &quot; + ex.Message);
+
+}
+</code></pre>
+
+<hr />
+<h1 id="php">PHP</h1>
+<p>برای استفاده از SDK کاوه نگار در زبان PHP کافیست فایل فشرده که حاوی کدهای ارسال و دریافت پیامک می باشد را دانلود و از حالت فشرده خارج نموده و در کنار کدهای خود قرار دهید. 
+ضمنا Include SDK کاوه نگار را در قسمتی که میخواهید توابع را فراخوانی کنید فراموش نشود</p>
+<p>شما به عنوان برنامه نویس و توسعه دهنده وظیفه قرار دادن کد مناسب با سیستم خود را در این کلاس دارید </p>
+<p>برای مثال شما مایل هستید بعد از ایجاد خطا, متن و اطلاعات پشته خطا در فایلی ذخیره و سپس پیام مناسب به کلاینت نمایش داده شود.</p>
+<h2 id="_5">نصب</h2>
+<p>از راه های زیر استفاده کنید : </p>
+<pre><code class="php">composer require kavenegar/php
+</code></pre>
+
+<p>یا فایل را اظافه کنید ‌:</p>
+<pre><code class="php">
+&quot;kavenegar/php&quot;: &quot;*&quot;
+
+</code></pre>
+
+<p>دستور زیر را بزنید تا نصب شود :</p>
+<pre><code class="php">
+composer update
+
+</code></pre>
+
+<h2 id="_6">نمونه</h2>
+<pre><code class="php">
+require  '/vendor/autoload.php';
+$sender = &quot;10006703323323&quot;;
+$receptor = &quot;09010346953&quot;;
+$message = &quot;وب سرویس تخصصی کاوه نگار &quot;;
+$api = new \Kavenegar\KavenegarApi(&quot;ِYour API Key&quot;);
+$api-&gt;Send($sender,$receptor,$message);
+catch(\Kavenegar\Exceptions\ApiException $e){
+    // در صورتی که خروجی وب سرویس 200 نباشد این خطا رخ می دهد
+    echo $e-&gt;errorMessage();
+}
+catch(\Kavenegar\Exceptions\HttpException $e){
+    // در زمانی که مشکلی در برقرای ارتباط با وب سرویس وجود داشته باشد این خطا رخ می دهد
+    echo $e-&gt;errorMessage();
+}
+</code></pre>
+
+<hr>
+
+<h1 id="java">Java</h1>
+<h3> نصب </h3>
+
+<p>بسته به آنچه که استفاده میکنید : </p>
+<h3 id="gradle">gradle</h3>
+<p><h5>مرحله اول </h5> </p>
+<p>ابتدا مخزن jitpck  را به پروژه خود اظافه میکنید </p>
+<pre><code class="java">allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+</code></pre>
+
+<h5>مرحله دوم </h5>
+
+<p>سپس dependency ها را اظافه میکنید</p>
+<pre><code class="java">dependencies {
+        compile 'com.github.User:Repo:Tag'
+    }
+</code></pre>
+
+<hr />
+<h3 id="maven">maven</h3>
+<h5>مرحله اول </h5>
+
+<p>ابتدا مخزن jitpck  را به پروژه خود اظافه میکنید </p>
+<pre><code class="java">
+&lt;repositories&gt;
+        &lt;repository&gt;
+            &lt;id&gt;jitpack.io&lt;/id&gt;
+            &lt;url&gt;https://jitpack.io&lt;/url&gt;
+        &lt;/repository&gt;
+    &lt;/repositories&gt;
+
+</code></pre>
+
+<h5>مرحله دوم </h5>
+
+<p>سپس dependency ها را اظافه میکنید</p>
+<pre><code class="java">&lt;dependency&gt;
+        &lt;groupId&gt;com.github.User&lt;/groupId&gt;
+        &lt;artifactId&gt;Repo&lt;/artifactId&gt;
+        &lt;version&gt;Tag&lt;/version&gt;
+    &lt;/dependency&gt;
+</code></pre>
+
+<hr>
+
+<h3 id="sbt">sbt</h3>
+<h5>مرحله اول </h5>
+
+<p>ابتدا مخزن jitpck  را به پروژه خود اظافه میکنید  </p>
+<pre><code class="java">    resolvers += &quot;jitpack&quot; at &quot;https://jitpack.io&quot;
+
+</code></pre>
+
+<h5>مرحله دوم </h5>
+
+<p>سپس dependency ها را اظافه میکنید</p>
+<pre><code class="java">
+    libraryDependencies += &quot;com.github.User&quot; % &quot;Repo&quot; % &quot;Tag&quot;
+
+</code></pre>
+
+<hr />
+<h3 id="leiningen">leiningen</h3>
+<h5>مرحله اول </h5>
+
+<p>ابتدا مخزن jitpck  را به پروژه خود اظافه میکنید  </p>
+<pre><code class="java">    :repositories [[&quot;jitpack&quot; &quot;https://jitpack.io&quot;]]
+
+    }
+</code></pre>
+
+<h5>مرحله دوم </h5>
+
+<p>سپس dependency ها را اظافه میکنید</p>
+<pre><code class="java">
+    :dependencies [[com.github.User/Repo &quot;Tag&quot;]]
+
+</code></pre>
+
+<hr />
+<h3 id="_7">نمونه</h3>
+<p>مثالی از ارسال اس ام اس از طریق java :  </p>
+<pre><code class="java">
+try {
+     KavenegarApi  api= new KavenegarApi(&quot;Your API Key&quot;);
+      SendResult Result = api.Send(&quot;SenderLine&quot;, &quot;Your Receptor&quot;, &quot;وب سرویس تخصصی کاوه نگار &quot;);
+}
+catch (HttpException ex)
+{ // در صورتی که خروجی وب سرویس 200 نباشد این خطارخ می دهد.
+  System.out.print(&quot;HttpException  : &quot; + ex.getMessage());
+}
+catch (ApiException ex)
+{ // در صورتی که خروجی وب سرویس 200 نباشد این خطارخ می دهد.
+   System.out.print(&quot;ApiException : &quot; + ex.getMessage());
+}
+
+</code></pre>
+
+<h1 id="delphi">Delphi</h1>
+<p>با توجه آنکه Parser ساختار Json در دلفی نسخه 2011 به بالا وجود دارد استفاده از SDK در نسخه های 2011 و بالاتر توصیه میشود در صورتی که شما از نسخه های پایین تر استفاده می کنید توصیه میشود از راهنمای <a href="http://kavenegar.com/soap.html">SOAP</a> استفاده نمایید.</p>
+<p>ارسال پیامک در دلفی</p>
+<p>برای استفاده از SDK کاوه نگار در زبان دلفی ، کافی است که فایل مورد نظر را را دانلود کرده و به بخش کتابخانه های پروژه اضافه کنید.</p>
+<p>توجه : این نسخه از SDK برای دلفی 2011 و بالاتر مناسب می باشد , در صورتی که شما از نسخه های پائین تر استفاده می کنید 
+لطفا به صفحه<a href="http://kavenegar.com/soap.html">راهنمای SOAP</a>  مراجعه نمائید تا نسخه مناسب با دلفی 6 و 7 را دریافت کنید.</p>
+<h2 id="_8">نصب</h2>
+<p>از لینک روبرو Delphi SDk را دریافت کنید      <a href="http://kavenegar.com/public/codes/Kavenegar.Delphi-SDK.rar">D‌elphi SDK</a></p>
+<h1 id="curl">Curl</h1>
+<p>خب میتونید از طریق دستور زیر توسط curl  پیام خود را ارسال کنید :</p>
+<h2 id="_9">نمونه</h2>
+<pre><code class="bash">
+curl -XPOST http://api.kavenegar.com/v1/{API-KEY}/sms/send.json \
+    --data-urlencode &quot;receptor={Your Phone Number}&quot;  \
+    --data-urlencode &quot;sender=10004346&quot;  \
+    --data-urlencode &quot;message=  وب سرویس تخصصی کاوه نگار  &quot;  \
+
+</code></pre>
+
+<h1 id="node">Node</h1>
+<h2 id="_10">نصب</h2>
+<p>برای نصب کافی است که Nodejs SDK کاوه نگار را از طریق npm نصب کنید به صورت زیر :</p>
+<pre><code class="javascript">npm install kavenegar
+</code></pre>
+
+<p>اگر npm را در سیستم خود نصب ندارید به راحتی ان را از طریق سایت روبرو نصب کنید .      <a href="https://www.npmjs.com/">سایت npm </a></p>
+<h2 id="_11">نمونه</h2>
+<p>دو نمونه از ارسال اسم از طریق nodejs را میتوانید در زیر مشاهده کنید </p>
+<pre><code class="javascript">
+var Kavenegar = require('kavenegar');
+var api = Kavenegar.KavenegarApi({
+    apikey: ''
+});
+api.Send({
+        message: &quot;وب سرویس تخصصی کاوه نگار  &quot;,
+        sender: &quot;10004346&quot;,
+        receptor: &quot;{Your API Key}&quot;
+    },
+    function(response, status) {
+        console.log(response);
+        console.log(status);
+    });
+/*
+
+</code></pre>
+
+<p>نمونه دوم : </p>
+<pre><code class="javascript">
+var Kavenegar = require('kavenegar');
+var api = Kavenegar.KavenegarApi({
+    apikey: '{Your API Key}'
+});
+api.VerifyLookup({
+    receptor: &quot;{Your Phone Number} &quot;,
+    token: &quot;852596&quot;,
+    template: &quot;registerverify&quot;
+}, function(response, status) {
+    console.log(response);
+    console.log(status);
+});
+
+</code></pre>
+
+<h1 id="python">Python</h1>
+<h2 id="_12">نصب</h2>
+<h2 id="_13">نموننه</h2>
+<p>نمونه ارسال پیامک از طریق پایتون :</p>
+<pre><code class="python">#!/usr/bin/env python
+from kavenegar import *
+try:
+    import json
+except ImportError:
+    import simplejson as json
+
+try:
+    api = KavenegarAPI('{Your APIKey}')
+    params = {
+        'sender': '10004346',
+        'receptor': '{Your Phone Number}',
+        'message': 'Kaveh specialized Web service '
+    }   
+    response = api.sms_send(params)
+    print str(response)
+except APIException,e: 
+    print str(e)
+except HTTPException,e: 
+    print str(e)
+
+</code></pre>
+
+<hr />
+<h1 id="go">go <a href="https://travis-ci.org/negah/kavenegar"><img alt="Build Status" src="https://travis-ci.org/negah/kavenegar.svg?branch=master" /></a></h1>
+<p>با استفاده از دستور زیر نصب کنید ‌:</p>
+<pre><code class="shell">go get github.com/negah/kavenegar
+</code></pre>
+
+<h2 id="_14">نمونه</h2>
+<p>نمونه ارسال اس ام اس از طریق GO :</p>
+<pre><code class="go">package main
+
+import (
+  &quot;github.com/negah/kavenegar&quot;
+  &quot;log&quot;
+  &quot;fmt&quot;
+)
+
+func main(){
+  // Setup new Client
+  // kavenegar.SMS(api_key, sender)
+  // sender is your dedicate phone_number in kavenagar. if you dont have one, left it blank but pass &quot;&quot;
+  sms := kavenegar.NewSMS(&quot;api_key&quot;,&quot;{Your APi Key}&quot;)
+
+  // Send sms
+  status, err := sms.Send(&quot;{Your Phone Number} &quot;, &quot;سلام من به تو یار قدیمی &quot;)
+
+  if err != nil {
+    log.Printf(&quot;Response status code: %d&quot;, status)
+    log.Fatal(err)
+  } else {
+    fmt.Printf(&quot;SMS sent successfully.&quot;)
+  }
+}
+
+</code></pre>
+
+<hr />
+<h1 id="ruby">Ruby</h1>
+<h2 id="_15">نصب</h2>
+<p>این خط را به قایل gem  اپلیکشن خود اظافه کنید :</p>
+<pre><code class="ruby">gem 'kave'
+</code></pre>
+
+<p>سپس دستور زیر را اجرا کنید : </p>
+<pre><code class="bash">$ bundle install
+</code></pre>
+
+<p>یا آن را به طور کلی از طریق  gem  نصب کنید ‌:</p>
+<pre><code>$ gem install kave
+</code></pre>
+
+<p>و initfile را در دایرکتوری کانفیگ خود بسازیذ (kave.rb):</p>
+<pre><code class="ruby">Kave.configure do |config|
+  config.wsdl ='http://api.kavenegar.com/soap/v1.asmx?WSDL'
+  config.sender  = 'number'
+</code></pre>
+
+<p>Well, There is an example to Send SMS by Ruby.</p>
+<pre><code class="Ruby"> request=Kave::SendRequestSimple.new({
+
+    message: 'سلام عزیز :)',
+    mobile: 'Your Phone Number ',
+    #optional
+    unixdate: by default 0 ,
+    msgmode: by default 1
+})
+
+res=request.call
+render :text=&gt;{status_message_only_farsi: res.statusmessage,status_code: res.status}
+</code></pre>
+
+<hr />
+<h1 id="elixir">Elixir</h1>
+<hr />
+<h2 id="_16">نصب</h2>
+<p>If <a href="https://hex.pm/docs/publish">available in Hex</a>, the package can be installed as:</p>
+<ol>
+<li>
+<p>Add kavenegar to your list of dependencies in <code>mix.exs</code>:</p>
+<pre><code>def deps do
+  [{:kavenegar, "~&gt; 0.0.1"}]
+end
+</code></pre>
+</li>
+<li>
+<p>Ensure kavenegar is started before your application:</p>
+<pre><code>def application do
+  [applications: [:kavenegar]]
+end
+</code></pre>
+</li>
+</ol>
+<h2 id="usage">Usage</h2>
+<p>Well, There is an example to Send SMS by Elixir.</p>
+<pre><code class="php">Kavenegar.send %{receptor: '{Your Phone Number}', message: &quot;this is a sample text&quot;}
+</code></pre>
+
+<p>will return:</p>
+<pre><code class="php">%{&quot;entries&quot; =&gt; [%{&quot;cost&quot; =&gt; 130, &quot;date&quot; =&gt; 1466091791,
+     &quot;message&quot; =&gt; &quot;this is a sample text&quot;, &quot;messageid&quot; =&gt; 999999999,
+     &quot;receptor&quot; =&gt; &quot;{Your Phone Number}&quot;, &quot;sender&quot; =&gt; &quot;10001000010000&quot;, &quot;status&quot; =&gt; 1,
+     &quot;statustext&quot; =&gt; &quot;In sending list&quot;}],
+  &quot;return&quot; =&gt; %{&quot;message&quot; =&gt; &quot;Confirm&quot;, &quot;status&quot; =&gt; 200}}
+</code></pre>
+
+<hr />
+<h1 id="laravel">Laravel</h1>
+<hr />
+<h2 id="_17">نیاز ها</h2>
+<p>Laravel 4 or 5.</p>
+<h2 id="_18">نصب</h2>
+<p>از این راه نصب کنید : : </p>
+<pre><code class="sh">composer require kavenegar/laravel
+</code></pre>
+
+<h2 id="laravel-5">Laravel 5</h2>
+<p>به آرایه   <code>providers</code> در  <code>config/app.php</code> در مسیر  <code>Kavenegar\Laravel\ServiceProvider</code>  کد های زیر را اظافه کنید ‌::</p>
+<pre><code class="php">'providers' =&gt; [
+  ...
+  Kavenegar\Laravel\ServiceProvider::class,
+],
+</code></pre>
+
+<p>کد زیر را به آرایه  <code>aliases</code> اظافه کنید ::</p>
+<pre><code class="php">'aliases' =&gt; [
+  ...
+  'Kavenegar' =&gt; Kavenegar\Laravel\Facade::class,
+],
+</code></pre>
+
+<p>در اخر فایل کانفیگ را با دستور  <code>php artisan vendor:publish</code>publish کنید . آن را در مسیر ربرو پیدا خواهید کرد ‌:  <code>config/kavenegar.php</code>.</p>
+<h2 id="laravel-4">Laravel 4</h2>
+<p>به آرایه   <code>providers</code> در  <code>config/app.php</code> در مسیر  <code>Kavenegar\Laravel\ServiceProvider</code>  کد های زیر را اظافه کنید ‌::</p>
+<pre><code class="php">'providers' =&gt; [
+  ...
+  'Kavenegar\Laravel\ServiceProvider',
+],
+</code></pre>
+
+<p>کد زیر را به آرایه  <code>aliases</code> اظافه کنید ::</p>
+<pre><code class="php">'aliases' =&gt; [
+  ...
+  'Kavenegar' =&gt; Kavenegar\Laravel\Facade',
+],
+</code></pre>
+
+<p>در اخر فایل کانفیگ را با دستور  <code>php artisan vendor:publish</code>publish کنید . آن را در مسیر روبرو پیدا خواهید کرد ‌:  <code>config/kavenegar.php</code>.</p>
+<h2 id="_19">نمونه</h2>
+<p>نمونه ارسال اس ام اس از طریق laravel : </p>
+<pre><code class="php">
+use Kavenegar as api;
+try{
+    $sender = &quot;10004346&quot;;
+    $message = &quot;Kaveh specialized Web service &quot;;
+    $receptor = array(&quot;{Your Phone Number}&quot;);
+    $result = api-&gt;Send($sender,$receptor,$message);
+    if($result){
+        foreach($result as $r){
+            echo &quot;messageid = $r-&gt;messageid&quot;;
+            echo &quot;message = $r-&gt;message&quot;;
+            echo &quot;status = $r-&gt;status&quot;;
+            echo &quot;statustext = $r-&gt;statustext&quot;;
+            echo &quot;sender = $r-&gt;sender&quot;;
+            echo &quot;receptor = $r-&gt;receptor&quot;;
+            echo &quot;date = $r-&gt;date&quot;;
+            echo &quot;cost = $r-&gt;cost&quot;;
+        }       
+    }
+}
+catch(\Kavenegar\Exceptions\ApiException $e){
+    //In case that error throw 200 
+    echo $e-&gt;errorMessage();
+}
+catch(\Kavenegar\Exceptions\HttpException $e){
+//in case that there is any problem to connect to webservie  this error thow
+    echo $e-&gt;errorMessage();
+}
+
+</code></pre>
+
+<h1 id="yii2">yii2</h1>
+<h2 id="_20">نصب</h2>
+<p>از روش های زیر نصب کنید : </p>
+<pre><code class="php">composer require kavenegar/yii2
+</code></pre>
+
+<p>یا کد زیر را اظافه کنید‌:‌</p>
+<pre><code class="php">&quot;kavenegar/yii2&quot;: &quot;*&quot;
+</code></pre>
+
+<p>ودستور زیر اجرا کنید تا افزونه را از  <code>**composer**</code> نصب کنید:</p>
+<pre><code class="php">$ composer update
+</code></pre>
+
+<h2 id="configuration">Configuration</h2>
+<p>کد های زیر را کانفیگ خود اظافه کیند ‌:</p>
+<pre><code class="php">return [
+    'components' =&gt; [
+        'Kavenegar' =&gt; [
+            'class' =&gt; 'Kavenegar\Yii2\Kavenegar',
+            'apikey' =&gt; '{Your API Key}',
+        ],
+    ],
+];
+</code></pre>
+
+<h2 id="usage_1">Usage</h2>
+<p>نمونه ارسال اسم ام اس از طریق yii3 :</p>
+<pre><code class="php">try{
+    $api = Yii::$app-&gt;Kavenegar-&gt;KavenegarApi();
+    $sender = &quot;10004346&quot;;
+    $message = &quot;Kaveh specialized Web service &quot;;
+    $receptor = array(&quot;{Your Phone Number} &quot;);
+    $result = $api-&gt;Send($sender,$receptor,$message);
+    if($result){
+        foreach($result as $r){
+            echo &quot;messageid = $r-&gt;messageid&quot;;
+            echo &quot;message = $r-&gt;message&quot;;
+            echo &quot;status = $r-&gt;status&quot;;
+            echo &quot;statustext = $r-&gt;statustext&quot;;
+            echo &quot;sender = $r-&gt;sender&quot;;
+            echo &quot;receptor = $r-&gt;receptor&quot;;
+            echo &quot;date = $r-&gt;date&quot;;
+            echo &quot;cost = $r-&gt;cost&quot;;
+        }       
+    }
+}
+catch(\Kavenegar\Exceptions\ApiException $e){
+//In case that error throw 200 
+    echo $e-&gt;errorMessage();
+}
+catch(\Kavenegar\Exceptions\HttpException $e){
+//in case that there is any problem to connect to webservie  this error thow
+    echo $e-&gt;errorMessage();
+}
+
+
+</code></pre>
+
+				
+
+			</div>
+
+		</main>
+
+		<footer class="oh">
+
+			
+
+				
+
+					<a class="left" href="https://github.com/kavenegar/mkdocs-jinks">دسترسی به کد اصلی روی Github</a>
+
+				
+
+			
+
+			<a class="right" href="http://www.mkdocs.org">ساخته شده توسط: MkDocs.</a>
+
+		</footer>
+
+	</div>
+
+	<!--
+		To include static assets from our theme, just add
+		. beforehand which will be the relative path to
+		the root of the documentation.
+	-->
+	<script src="./js/theme.js"></script>
+
+	<!--
+		extra_javascript contains paths to JavaScript files in the
+		users documentation directory or a list of JavaScript files
+		defined in their mkdocs.yml.
+
+		http://www.mkdocs.org/user-guide/configuration/#extra_javascript
+	-->
+	
+
+</body>
+</html>
