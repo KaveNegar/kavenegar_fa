@@ -211,8 +211,8 @@ header h1 {
 }
 
 header {
-	background: #f90;
-	overflow: hidden;
+    background: -webkit-linear-gradient(to left, #E6DADA , #274046);
+    background: linear-gradient(to left, #E6DADA , #274046);	overflow: hidden;
 	padding: 50px;
 	color: #fff;
 	text-shadow: 0 1px 0 #333;
@@ -411,8 +411,8 @@ header {
 	}
 
 footer {
-	background: #f90;
-	color: #fff;
+    background: -webkit-linear-gradient(to left, #E6DADA , #274046);
+    background: linear-gradient(to left, #E6DADA , #274046);	color: #fff;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -438,4 +438,11 @@ footer {
 			padding-right: 40px;
 		}
 
+}
+
+.right.content {
+    padding-right: 42px;
+}
+.right.toc.rel {
+    border-left: 1px solid;
 }
