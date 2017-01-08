@@ -310,13 +310,17 @@ header {
 
 .content code, .content .code {
 	padding: 10px;
-	background: #333;
-	color: #fff;
+	color: #000;
 	font: 16px 'Courier new', courier, monospace;
 }
 .content .code {
 	margin: 5px 0;
     overflow: auto;
+        background-image: url(https://www.mailgun.com/static/img/code.png);
+    background-size: 100% 635px;
+    background-repeat: no-repeat;
+    padding-top: 29px;
+}
 }
 .content code {
 	margin: 3px 5px;
