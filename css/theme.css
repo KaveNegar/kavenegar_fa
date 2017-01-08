@@ -212,10 +212,12 @@ header h1 {
 
 header {
     background: -webkit-linear-gradient(to left, #E6DADA , #274046);
-    background: linear-gradient(to left, #E6DADA , #274046);	overflow: hidden;
-	padding: 50px;
-	color: #fff;
-	text-shadow: 0 1px 0 #333;
+    background: linear-gradient(to left, #bdc3c7 , #2c3e50);
+    overflow: hidden;
+    padding: 50px;
+    color: #fff;
+    text-shadow: 0 1px 0 #333;
+    margin-right: 15%;
 }
 
 	header form input {
@@ -343,7 +345,7 @@ header {
 }
 
 .content h1 {
-	text-align: center;
+    text-align: right;
 }
 
 .content a {
@@ -445,8 +447,18 @@ footer {
 }
 
 .right.content {
-    padding-right: 42px;
+    padding-right: 50px;
+    margin-right: 250px;
 }
 .right.toc.rel {
     border-left: 1px solid;
+    padding-left: 53px;
+    background: #fff;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 20%;
 }
