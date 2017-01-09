@@ -322,6 +322,7 @@ header {
     background-size: 100% 635px;
     background-repeat: no-repeat;
     padding-top: 29px;
+        padding-left: 10px;
 }
 }
 .content code {
