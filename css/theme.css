@@ -463,3 +463,34 @@ footer {
     overflow-y: scroll;
     width: 20%;
 }
+.btn.round {
+    border-radius: 3em;
+}
+.btn.lowercase {
+    letter-spacing: 0;
+    text-indent: 0;
+    text-transform: none;
+}
+.btn.primary {
+    background-color: #e04e4b;
+    color: #ffffff;
+}
+a:visited, .link:visited {
+    color: #333333;
+}
+.content a {
+    border-bottom: 1px solid #333;
+}
+.btn {
+    -webkit-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    display: inline-block;
+    padding: 0.625rem 0.875rem;
+    text-align: center;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 12px;
+}
